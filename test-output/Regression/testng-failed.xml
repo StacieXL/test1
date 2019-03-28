@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Techfios Test(failed)">
+    <classes>
+      <class name="com.TestCases.LoginPageTest">
+        <methods>
+          <include name="TestLogo"/>
+          <include name="TestErrorMessage"/>
+          <include name="Teardown"/>
+          <include name="TestLogin"/>
+          <include name="SetUp"/>
+          <include name="TestTitle"/>
+        </methods>
+      </class> <!-- com.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Techfios Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->

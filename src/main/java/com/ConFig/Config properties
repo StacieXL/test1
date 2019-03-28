@@ -1,0 +1,6 @@
+url=http://techfios.com/test/billing/?ng=login/
+userName=techfiosdemo@gmail.com
+passWord=abc123
+invalidUser=anything
+invalidPassword=whatever
+browser=chrome
