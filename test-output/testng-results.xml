@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-14T17:36:46Z" name="Default suite" finished-at="2019-03-14T17:37:29Z" duration-ms="43247">
+  <suite name="Regression" duration-ms="111948" started-at="2019-04-03T02:55:36Z" finished-at="2019-04-03T02:57:28Z">
     <groups>
     </groups>
-    <test started-at="2019-03-14T17:36:46Z" name="Default test" finished-at="2019-03-14T17:37:29Z" duration-ms="43247">
+    <test name="Techfios Test" duration-ms="111948" started-at="2019-04-03T02:55:36Z" finished-at="2019-04-03T02:57:28Z">
       <class name="com.TestCases.LoginPageTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:36:46Z" name="SetUp" finished-at="2019-03-14T17:36:50Z" duration-ms="4702" status="PASS">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="SetUp" is-config="true" duration-ms="18161" started-at="2019-04-03T02:55:36Z" finished-at="2019-04-03T02:55:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="TestLogo()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:36:50Z" name="TestLogo" finished-at="2019-03-14T17:36:54Z" duration-ms="4048" status="PASS">
+        <test-method status="PASS" signature="TestLogo()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="TestLogo" duration-ms="4096" started-at="2019-04-03T02:55:54Z" finished-at="2019-04-03T02:55:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogo -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:36:54Z" name="Teardown" finished-at="2019-03-14T17:36:56Z" duration-ms="1118" status="PASS">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="Teardown" is-config="true" duration-ms="6800" started-at="2019-04-03T02:55:58Z" finished-at="2019-04-03T02:56:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:36:56Z" name="SetUp" finished-at="2019-03-14T17:36:59Z" duration-ms="3749" status="PASS">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="SetUp" is-config="true" duration-ms="8700" started-at="2019-04-03T02:56:05Z" finished-at="2019-04-03T02:56:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="TestTitle()[pri:1, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:36:59Z" name="TestTitle" finished-at="2019-03-14T17:37:04Z" duration-ms="5006" status="PASS">
+        <test-method status="PASS" signature="TestTitle()[pri:1, instance:com.TestCases.LoginPageTest@53b32d7]" name="TestTitle" duration-ms="5009" started-at="2019-04-03T02:56:14Z" finished-at="2019-04-03T02:56:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:04Z" name="Teardown" finished-at="2019-03-14T17:37:05Z" duration-ms="1146" status="PASS">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="Teardown" is-config="true" duration-ms="2119" started-at="2019-04-03T02:56:19Z" finished-at="2019-04-03T02:56:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:05Z" name="SetUp" finished-at="2019-03-14T17:37:09Z" duration-ms="3640" status="PASS">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="SetUp" is-config="true" duration-ms="7121" started-at="2019-04-03T02:56:21Z" finished-at="2019-04-03T02:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="TestLogin()[pri:2, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:09Z" name="TestLogin" finished-at="2019-03-14T17:37:17Z" duration-ms="7483" status="PASS">
+        <test-method status="PASS" signature="TestLogin()[pri:2, instance:com.TestCases.LoginPageTest@53b32d7]" name="TestLogin" duration-ms="16651" started-at="2019-04-03T02:56:28Z" finished-at="2019-04-03T02:56:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:17Z" name="Teardown" finished-at="2019-03-14T17:37:17Z" duration-ms="700" status="PASS">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="Teardown" is-config="true" duration-ms="7470" started-at="2019-04-03T02:56:44Z" finished-at="2019-04-03T02:56:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:17Z" name="SetUp" finished-at="2019-03-14T17:37:21Z" duration-ms="4204" status="PASS">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="SetUp" is-config="true" duration-ms="6875" started-at="2019-04-03T02:56:52Z" finished-at="2019-04-03T02:56:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="TestErrorMessage()[pri:4, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:21Z" name="TestErrorMessage" finished-at="2019-03-14T17:37:28Z" duration-ms="6610" status="PASS">
+        <test-method status="PASS" signature="TestErrorMessage()[pri:4, instance:com.TestCases.LoginPageTest@53b32d7]" name="TestErrorMessage" duration-ms="7117" started-at="2019-04-03T02:56:59Z" finished-at="2019-04-03T02:57:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestErrorMessage -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@6a2f6f80]" started-at="2019-03-14T17:37:28Z" name="Teardown" finished-at="2019-03-14T17:37:29Z" duration-ms="799" status="PASS">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.TestCases.LoginPageTest@53b32d7]" name="Teardown" is-config="true" duration-ms="21768" started-at="2019-04-03T02:57:06Z" finished-at="2019-04-03T02:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.TestCases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Techfios Test -->
+  </suite> <!-- Regression -->
 </testng-results>
